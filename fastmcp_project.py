@@ -1,0 +1,5 @@
+"""Compat layer that re-exports the primary FastMCP entrypoints."""
+
+from app import build_app, main
+
+__all__ = ["build_app", "main"]

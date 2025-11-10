@@ -1,0 +1,7 @@
+2025-11-10 19:43:59,481 - mcp.server.streamable_http_manager - INFO - StreamableHTTP session manager started
+2025-11-10 19:44:18,903 - mcp.server.streamable_http_manager - INFO - StreamableHTTP session manager shutting down
+2025-11-10 20:03:45,751 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-11-10 20:04:25,585 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-11-10 20:04:41,206 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-11-10 20:27:40,465 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-11-10 20:27:48,032 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
