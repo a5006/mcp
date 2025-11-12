@@ -10,7 +10,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastmcp>=2.13.0",
-    "rich>=13.7.0"
+    "rich>=13.7.0",
+    "python-dotenv>=1.0.1"
 ]
 authors = [
     { name = "FASTMCP User", email = "user@example.com" }

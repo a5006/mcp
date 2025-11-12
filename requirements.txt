@@ -1,6 +1,7 @@
 # Core runtime dependencies
 fastmcp>=2.13.0
 rich>=13.7.0
+python-dotenv>=1.0.1
 
 # Development / tooling extras
 pytest>=8.3.0

@@ -3,16 +3,17 @@
 from __future__ import annotations
 
 from fastmcp import FastMCP
+from dotenv import load_dotenv
 
 from config import ProjectConfig
 from logging_config import setup_logging
-from prompts import register_prompts
 from resources import register_resources
 from tools import register_tools
 
 
 def build_app(config: ProjectConfig | None = None) -> FastMCP:
     """Create and configure the FastMCP server instance."""
+    load_dotenv()
     config = config or ProjectConfig()
     setup_logging(config.log_level)
 
@@ -23,7 +24,6 @@ def build_app(config: ProjectConfig | None = None) -> FastMCP:
     )
 
     register_resources(mcp, config)
-    register_prompts(mcp, config)
     register_tools(mcp, config)
 
     return mcp
